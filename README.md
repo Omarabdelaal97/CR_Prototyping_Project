@@ -28,6 +28,8 @@ The BUILDING_COORDINATES constant is an array of latitude and longitude coordina
 
 The getResource function is a helper function that takes a building ID as an argument and returns it for the corresponding resource. The resource is retrieved using the cesium access token.
 
+![Screenshot 2024-02-26 215035](https://github.com/Omarabdelaal97/CR_Prototyping_Project/assets/122699912/cc2ac20a-19a6-4750-a000-906f20d81f17)
+
 # App Component
 The App component is the main component of the application. It is a functional component defined using the function keyword.
 
@@ -35,11 +37,11 @@ The id state variable holds the currently selected building ID. It is initialize
 
 The building state variable holds the resource for the currently selected building. It is initialized with the resource corresponding to the initial building ID.
 
-The toggles state variable holds the state of various toggles in the user interface. It is initialized with an object containing the initial toggle values.
-
 The assignBuilding function is a helper function that takes a building ID as an argument. It updates the id and building state variables with the new building ID and corresponding resource.
 
 The convertIndexToMonth function is a helper function that takes a building ID as an argument and returns the corresponding month name based on the index of the building ID in the buildingIDs array.
+
+![Screenshot 2024-02-26 215106](https://github.com/Omarabdelaal97/CR_Prototyping_Project/assets/122699912/82165666-fece-4f16-85e5-76a243a409ea)
 
 # JSX code
 
@@ -66,6 +68,14 @@ To start the App, type
 in the terminal to download the necessary node_modules. Then after the download is complete, type
 ### "npm start"
 in the terminal which will redirect you to (http://localhost:3000) to view it in the browser.
+
+# Results
+
+Solar Radiation Analysis for 2 different months
+
+![Feb](https://github.com/Omarabdelaal97/CR_Prototyping_Project/assets/122699912/1ef2dd70-041a-4a7c-8d69-334ce84ce526)
+
+![oct](https://github.com/Omarabdelaal97/CR_Prototyping_Project/assets/122699912/06043ae1-4b82-4d50-a70c-75ba15599209)
 
 # Conclusion
 In summary, the code imports necessary dependencies, initializes variables and constants, and defines the App component, which serves as the main component of the application. The App component manages state variables, handles user interactions, and renders the user interface. The user interface includes various components and elements, such as a dropdown select input, resizable panels, a slider input, checkboxes, and a button. The Cesium map and Google Maps overlay are also rendered in the user interface.
