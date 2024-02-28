@@ -4,7 +4,7 @@ CR Prototyping Project
 # Description 
 This project aims to utilize the Solar Radiation Analysis to preview how much will the sun affect the facade of the proposed design in a selected location throughout the year.
 
-As a result, architects and users will be able to preview the amount of solar radiation affecting the building based on its orientation, design, shading elements, and location.
+As a result, architects and users will be able to preview the amount of solar radiation affecting the building based on its orientation, design, shading elements, and location. Users will be able to navigate the map and switch between each month of the year showing the amount of solar radiation on the buildings.
 
 # Importing Dependencies
 The code begins with importing necessary dependencies. These dependencies are modules or libraries that contain pre-built functions and components that we can use in our code. In this case, we are importing various components and functions from different libraries:
