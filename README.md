@@ -7,7 +7,7 @@ This project aims to utilize the Solar Radiation Analysis to preview how much wi
 As a result, architects and users will be able to preview the amount of solar radiation affecting the building based on its orientation, design, shading elements, and location. Users will be able to navigate the map and switch between each month of the year showing the amount of solar radiation on the buildings.
 
 # Importing Dependencies
-The code begins with importing necessary dependencies. These dependencies are modules or libraries that contain pre-built functions and components that we can use in the code. In this case, various components and functions are imported from different libraries:
+The code begins with importing necessary dependencies. These dependencies are modules or libraries that contain pre-built functions and components that can be used in the code. In this case, various components and functions are imported from different libraries:
 
 "./App.css"; imports the CSS file associated with the App component.
 
